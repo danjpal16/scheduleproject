@@ -6,31 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Where Should I Be Right Now?</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Caveat:wght@400..700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
-        <h1 class="text-center">Where Should I Be Right Now?</h1>
+        <h1 class="text-center everything2">Where Should I Be Right Now?</h1>
 
         <div class="form-group">
-            <label for="letterDayInput">Select Day (A-G):</label>
-            <input type="text" id="letterDayInput" class="form-control" placeholder="Enter a day (A-G)">
-            <button id="submitDayLetter" class="btn btn-primary mt-2">Show Schedule</button>
+            <label for="letterDayInput" class="everything4">Select Day (A-G):</label>
+            <input type="text" id="letterDayInput" class="form-control everything" placeholder="Enter a day (A-G)">
+            <button id="submitDayLetter" class="btn btn-danger mt-2 everything">Show Schedule</button>
         </div>
         <div class="schedule">
-            <h3 class="text-center">Your Schedule for the Day</h3>
+            <h3 class="text-center everything2">Your Schedule for the Day</h3>
             <table class="table table-bordered table-striped">
                 <thead>
                     <tr>
-                        <th>Period</th>
-                        <th>Time</th>
-                        <th>Class</th>
-                        <th>Teacher</th>
-                        <th>Room</th>
+                        <th class="everything3">Period</th>
+                        <th class="everything3">Time</th>
+                        <th class="everything3">Class</th>
+                        <th class="everything3">Teacher</th>
+                        <th class="everything3">Room</th>
                     </tr>
                 </thead>
                 <tbody id="scheduleList"></tbody>
             </table>
+        </div>
+        <div class="card cardimg" style="width: 18rem;">
+            <img src="ironman.webp" class="" alt="">
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

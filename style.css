@@ -1,0 +1,34 @@
+.body {
+    background-image: url(ironman.webp);
+    background-size: au;
+}
+
+.everything {
+    font-family: "Caveat", cursive;
+    font-size: 150%;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.everything2 {
+    font-family: "Caveat", cursive;
+    font-size: 450%;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.everything3 {
+    font-family: "Caveat", cursive;
+    font-size: 150%;
+    font-weight: weight;
+    font-style: normal;
+    background-color: goldenrod;
+}
+
+.everything4 {
+    font-family: "Caveat", cursive;
+    font-size: 150%;
+    font-weight: weight;
+    font-style: normal;
+    color: lightskyblue;
+}
